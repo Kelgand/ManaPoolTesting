@@ -1,0 +1,98 @@
+.app {
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.primary-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.primary-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.secondary-button {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.small-button {
+  padding: 3px 8px;
+  font-size: 11px;
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
+
+.orders-section {
+  margin-top: 20px;
+}
+
+.order-select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.suggestions-section {
+  margin-top: 20px;
+}
+
+.suggestions-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.suggestion-group {
+  margin-bottom: 15px;
+}
+
+.group-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-list {
+  margin: 0;
+  padding-left: 20px;
+}
